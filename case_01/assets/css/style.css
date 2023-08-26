@@ -1,0 +1,51 @@
+
+body > section {
+    height: max-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+body > section > div {
+
+    width: 250px;
+    height: 80px;
+    background-color: purple;
+    position: relative;
+    margin: 20px 0px;
+    transition-duration: 2s;
+    transition-property: right;
+    cursor: pointer;
+    right: 190px;
+    border-radius: 0px 8px 8px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+body > section > div:hover {
+
+    right: 0;
+
+
+}
+
+body > section > div > h3 {
+
+    position: absolute;
+    height: max-content;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+    color: white;
+}
+
+body > section > div > div {
+
+    position: absolute;
+    height: max-content;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    margin: auto;
+}
