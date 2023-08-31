@@ -1,0 +1,30 @@
+section {
+    height: 100vh;
+    position: relative;
+}
+
+section > div {
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    border: 4px solid red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: circle_animation 1s linear infinite;
+}
+
+@keyframes circle_animation {
+
+    from {
+        width: 100px;
+    }
+
+    to {
+        width: 200px;
+        opacity: 0;
+    }
+}
